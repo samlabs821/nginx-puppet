@@ -1,0 +1,12 @@
+---
+version: 2
+groups:
+  - name: nginx-hosts
+    targets: 
+    - 192.168.201.51
+config:
+  ssh:
+    user: dbadmin
+    host-key-check: false
+    run-as: root
+
